@@ -1,0 +1,6 @@
+[mypy]
+mypy_path = stubs
+plugins = callback._mypy.plugin
+
+[mypy-pytest.*]
+ignore_missing_imports = True
